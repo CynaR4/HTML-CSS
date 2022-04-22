@@ -1,0 +1,21 @@
+.icon-bar {
+	width: 50vh; /* Установите определенную ширину */
+	background-color: gray; /* Установите фон */
+}
+
+.icon-bar a {
+	display: block; /* Сделайте так, чтобы ссылки располагались друг под другом, а не бок о бок */
+	text-align: center; /* Выравнивание текста по центру */
+	padding: 16px; /* Добавить немного отступы */
+	transition: all 0.3s ease; /* Добавить переход для эффектов наведения */
+	color: white; /* Белый цвет текста */
+	font-size: 36px; /* Увеличенный размер шрифта */
+	text-decoration: none;
+}
+
+.icon-bar a:hover {
+	background-color: #000; /* Добавить при наведении цвет */
+}
+
+.active {
+	background-color: darkcyan;

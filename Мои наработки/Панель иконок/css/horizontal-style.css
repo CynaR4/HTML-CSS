@@ -1,0 +1,26 @@
+.icon-bar2 {
+	width: 100%; /* Полная ширина */
+	background-color: gray; /* Темно-серый фон */
+	overflow: auto; /* Переполнение из-за поплавка */
+}
+
+.icon-bar2 a {
+	float: left; /* Поплавок одной стороны бок */
+	text-align: center; /* Выравнивание текста по центру */
+	width: 46vh; /*}Равная ширина (5 иконок с шириной 20% каждая = 100%) */
+	padding: 12px; /* Некоторые верхние и нижние отступы */
+	transition: all 0.3s ease;  /* Добавить переход для эффектов наведения */
+	color: white;
+	font-size: 36px; /* Увеличенный размер шрифта */
+	text-decoration: none;
+	
+}
+
+.icon-bar2 a:hover {
+	background-color: #000; /* Добавить при наведении цвет */
+}
+
+.active2 {
+	background-color: darkcyan;
+}
+	
